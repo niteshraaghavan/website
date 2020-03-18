@@ -1,6 +1,3 @@
-FROM ubuntu
-RUN apt-get update
-RUN apt-get -y install apache2
+FROM niteshdevops/apache
 ADD . /var/www/html
-ENTRYPOINT apachectl –D FOREGROUND
-ENV name Devops Intellipaat
+
