@@ -1,2 +1,2 @@
-FROM hshar/webapp
+FROM centos:latest
 ADD .  /var/www/html/
